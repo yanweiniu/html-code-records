@@ -1,0 +1,29 @@
+/*
+* @Author: yanwei
+* @Date:   2017-08-05 20:48:48
+* @Last Modified by:   yanwei
+* @Last Modified time: 2017-08-05 20:55:26
+*/
+.nav{
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+}
+/* 用户信息部分*/
+.nav .user{
+	float: left;
+}
+.nav .user.login{
+	display: none;
+}
+.user .link{
+	margin-right: 5px;
+}
+/* 导航链接部分*/
+.nav .nav-list{
+	float: right;
+}
+.nav .nav-list .nav-item{
+	display: inline-block;
+	margin-left: 5px;
+}

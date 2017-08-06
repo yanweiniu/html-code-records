@@ -29,6 +29,10 @@
   },
   "dependencies": {
     "css-loader": "^0.28.4",
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2",
+    "hogan-loader": "0.0.2",
+    "hogan.js": "^3.0.2",
     "html-loader": "^0.5.0",
     "style-loader": "^0.18.2"
   }

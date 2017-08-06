@@ -1,0 +1,25 @@
+/*
+* @Author: yanwei
+* @Date:   2017-08-06 13:22:02
+* @Last Modified by:   yanwei
+* @Last Modified time: 2017-08-06 14:03:34
+*/
+.page-wrap{
+	padding: 30px 0;
+	margin-top: 20px;
+	text-align: center;
+	background: #fff;
+}
+.result-con{
+	display: none;
+}
+.result-con .result-title{
+	color: #555;
+}
+.result-con .result-content{
+	margin-top: 20px;
+}
+.result-con .result-content .link{
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
