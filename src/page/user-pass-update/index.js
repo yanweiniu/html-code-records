@@ -2,7 +2,7 @@
 * @Author: yanwei
 * @Date:   2017-08-07 13:18:56
 * @Last Modified by:   yanwei
-* @Last Modified time: 2017-08-07 15:34:53
+* @Last Modified time: 2017-08-07 15:45:04
 */
 
 'use strict';
@@ -31,8 +31,8 @@ var page = {
 	},
 	bindEvent : function(){
 		var _this = this;
-		//登录按钮的点击
-		$('.btn-submit').click(function() {
+		//事件委托，点击提交按钮后的动作
+		$(document).on('click','.btn-submit',function(){
 			var userInfo = {
 				password 		: $.trim($('#password').val()),
 				passwordNew 	: $.trim($('#password-new').val()),
@@ -54,10 +54,6 @@ var page = {
 			else{
 				_mm.errorTips(validateResult.msg);
 			}
-		});
-		//点击提交按钮后的动作
-		$(document).on('click','.btn-submit',function(){
-			
 		});
 	},
 	validateForm : function(formData){
