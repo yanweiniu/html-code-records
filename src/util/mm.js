@@ -2,7 +2,7 @@
 * @Author: yanwei
 * @Date:   2017-08-05 10:25:34
 * @Last Modified by:   yanwei
-* @Last Modified time: 2017-08-06 11:43:38
+* @Last Modified time: 2017-08-06 21:57:06
 */
 
 'use strict';
@@ -33,7 +33,7 @@ var _mm = {
 				}
 			},
 			error : function(err) {
-				typeof param.error === 'function' && param.error(res.status);
+				typeof param.error === 'function' && param.error(err.status);
 			}
 		});
 	},
@@ -64,6 +64,7 @@ var _mm = {
 	//字段验证，支持非空、手机、邮箱的判断
 	validate : function(value,type){
 		var value = $.trim(value);
+		
 		if ('require'=== type) {
 			return !!value;
 		}
@@ -78,7 +79,7 @@ var _mm = {
 	},
 	//统一登录处理
 	doLogin : function(){
-		window.location.href = './login.html?redirect='+encodeURIComponent(window.location.href);
+		window.location.href = './user-login.html?redirect='+encodeURIComponent(window.location.href);
 
 	},
 	goHome : function(){

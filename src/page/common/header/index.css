@@ -2,7 +2,7 @@
 * @Author: yanwei
 * @Date:   2017-08-05 21:16:42
 * @Last Modified by:   yanwei
-* @Last Modified time: 2017-08-05 22:24:51
+* @Last Modified time: 2017-08-07 13:34:34
 */
 /* 通用头部导航 */
 .header .logo{
@@ -13,6 +13,7 @@
 	font-size: 36px;
 	font-weight: bold;
 	color: #c60023;
+	text-decoration: none;
 }
 .header .search-con{
 	padding: 40px 0 30px 250px;
@@ -30,4 +31,13 @@
 	position: absolute;
 	height: 44px;
 	width: 80px;
+}
+/*面包屑导航*/
+.crumb{
+	height: 50px;
+	line-height: 50px;
+	background: #eee;
+	color: #888;
+	font-size: 14px;
+	border-top: 2px solid #c60023;
 }

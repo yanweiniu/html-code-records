@@ -1,0 +1,23 @@
+<div class="user-info">
+    <div class="form-line">
+        <span class="label">用户名：</span>
+        <span class="label">{{username}}</span>
+    </div>
+    <div class="form-line">
+        <span class="label">电 话：</span>
+        <span class="label">{{phone}}</span>
+    </div>
+    <div class="form-line">
+        <span class="label">邮 箱：</span>
+        <span class="label">{{email}}</span>
+    </div>
+    <div class="form-line">
+        <span class="label">问 题：</span>
+        <span class="label">{{question}}</span>
+    </div>
+    <div class="form-line">
+        <span class="label">答 案：</span>
+        <span class="label">{{answer}}</span>
+    </div>
+    <a class="btn  btn-submit" href="./user-center-update.html">编辑</a> 
+</div>

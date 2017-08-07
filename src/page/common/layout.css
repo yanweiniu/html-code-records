@@ -2,7 +2,7 @@
 * @Author: yanwei
 * @Date:   2017-08-05 14:14:48
 * @Last Modified by:   yanwei
-* @Last Modified time: 2017-08-05 14:53:42
+* @Last Modified time: 2017-08-07 13:43:06
 */
 /* css reset */
 *{
@@ -31,6 +31,23 @@ input[type='checkout']{
 	width: 1080px;
 	margin: 0 auto;
 	position: relative;
+	overflow: hidden;
+}
+/*panel*/
+.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.panel .panel-title{
+	font-size: 10px;
+	padding: 10px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+	padding: 10px;
 	overflow: hidden;
 }
 /* 全局样式 */

@@ -1,0 +1,24 @@
+/*
+* @Author: yanwei
+* @Date:   2017-08-07 13:19:02
+* @Last Modified by:   yanwei
+* @Last Modified time: 2017-08-07 15:25:31
+*/
+.form-line{
+	height: 30xp;
+	line-height: 30px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.form-line .label{
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+}
+.form-line .input{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	width: 200px;
+}
