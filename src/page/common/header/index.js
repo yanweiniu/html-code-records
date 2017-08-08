@@ -2,7 +2,7 @@
 * @Author: yanwei
 * @Date:   2017-08-05 21:16:36
 * @Last Modified by:   yanwei
-* @Last Modified time: 2017-08-06 13:08:16
+* @Last Modified time: 2017-08-07 21:30:01
 */
 
 'use strict';
@@ -10,6 +10,7 @@ var _mm	= require('util/mm.js');
 //通用导航头部
 var header = {
 	init : function(){
+		this.onLoad();
 		this.bindEvent();
 	},
 	onLoad : function(){
